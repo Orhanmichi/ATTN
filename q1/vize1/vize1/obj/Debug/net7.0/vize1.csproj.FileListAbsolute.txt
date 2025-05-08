@@ -1,0 +1,15 @@
+C:\Users\orhan\OneDrive\Masaüstü\orhan\q1\vize1\vize1\obj\Debug\net7.0\vize1.csproj.AssemblyReference.cache
+C:\Users\orhan\OneDrive\Masaüstü\orhan\q1\vize1\vize1\obj\Debug\net7.0\vize1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\orhan\OneDrive\Masaüstü\orhan\q1\vize1\vize1\obj\Debug\net7.0\vize1.AssemblyInfoInputs.cache
+C:\Users\orhan\OneDrive\Masaüstü\orhan\q1\vize1\vize1\obj\Debug\net7.0\vize1.AssemblyInfo.cs
+C:\Users\orhan\OneDrive\Masaüstü\orhan\q1\vize1\vize1\obj\Debug\net7.0\vize1.csproj.CoreCompileInputs.cache
+C:\Users\orhan\OneDrive\Masaüstü\orhan\q1\vize1\vize1\bin\Debug\net7.0\vize1.exe
+C:\Users\orhan\OneDrive\Masaüstü\orhan\q1\vize1\vize1\bin\Debug\net7.0\vize1.deps.json
+C:\Users\orhan\OneDrive\Masaüstü\orhan\q1\vize1\vize1\bin\Debug\net7.0\vize1.runtimeconfig.json
+C:\Users\orhan\OneDrive\Masaüstü\orhan\q1\vize1\vize1\bin\Debug\net7.0\vize1.dll
+C:\Users\orhan\OneDrive\Masaüstü\orhan\q1\vize1\vize1\bin\Debug\net7.0\vize1.pdb
+C:\Users\orhan\OneDrive\Masaüstü\orhan\q1\vize1\vize1\obj\Debug\net7.0\vize1.dll
+C:\Users\orhan\OneDrive\Masaüstü\orhan\q1\vize1\vize1\obj\Debug\net7.0\refint\vize1.dll
+C:\Users\orhan\OneDrive\Masaüstü\orhan\q1\vize1\vize1\obj\Debug\net7.0\vize1.pdb
+C:\Users\orhan\OneDrive\Masaüstü\orhan\q1\vize1\vize1\obj\Debug\net7.0\vize1.genruntimeconfig.cache
+C:\Users\orhan\OneDrive\Masaüstü\orhan\q1\vize1\vize1\obj\Debug\net7.0\ref\vize1.dll

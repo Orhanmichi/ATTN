@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>vize2</id>
+    <version>1.0.0</version>
+    <authors>vize2</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net7.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\orhan\OneDrive\Masaüstü\orhan\q1\vize1\vize2\bin\Debug\net7.0\vize2.runtimeconfig.json" target="lib\net7.0\vize2.runtimeconfig.json" />
+    <file src="C:\Users\orhan\OneDrive\Masaüstü\orhan\q1\vize1\vize2\bin\Debug\net7.0\vize2.dll" target="lib\net7.0\vize2.dll" />
+  </files>
+</package>
