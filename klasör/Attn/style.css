@@ -1,0 +1,439 @@
+
+body{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    
+}
+
+
+h1 {
+    margin-left: 50px;
+    margin-top: 25px;
+    
+}
+
+#box1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    height: 100px;
+    background: linear-gradient(to right, hsl(110, 63%, 37%), hsl(127, 57%, 35%));
+}
+@media (max-width: 900px) {
+    #box2 h2 {
+      display: none;
+    }
+  }
+  
+#box2 {
+    margin-right: 50px;
+    display: flex;
+    gap: clamp(10px, 5vw, 100px); /* ekran küçüldükçe boşluklar da küçülür */
+    align-items: center;
+    margin-left: 40px;
+    
+}
+
+.head{
+  
+    margin-top: 20px;
+    color: white;
+    font-size: large;
+    white-space: nowrap;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+
+}
+.buttons {
+    height: 60px;
+    padding: 10px 50px; /* Genişlik bu değerle sağlanıyor */
+    margin-top: 1%;
+    white-space: nowrap;
+    border: none;
+    border-radius: 40px;
+    color: black;
+    background-color: yellow;
+    cursor: pointer;
+    font-size: large;
+    transition: all 0.3s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+#box3 {
+    background: linear-gradient(to right, hsl(110, 61%, 41%), hsl(110, 62%, 32%));
+    padding: 80px 20px 40px;
+    color: white;
+    text-align: center;
+    
+  }
+  
+  .box3-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .left-box, .right-box {
+    flex: 1 1 400px; /* ikisi de eşit genişlikte olacak */
+    max-width: 500px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .left-box h2 {
+    font-size: 1.9rem;
+    margin-bottom: 20px;
+    line-height: 1.3;
+  }
+  
+  .left-box .buttons {
+    height: 60px;
+    padding: 10px 50px; /* Genişlik bu değerle sağlanıyor */
+    margin-top: 1%;
+    white-space: nowrap;
+    border: none;
+    border-radius: 40px;
+    color: black;
+    background-color: yellow;
+    cursor: pointer;
+    font-size: large;
+    align-self: flex-start;
+    transition: all 0.3s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  }
+  
+  .right-box img {
+    width: 100%;           /* kutunun genişliğini tamamen kaplasın */
+    height: auto;          /* orantılı küçülsün */
+    max-height: 300px;     /* çok büyük olmasın */
+    object-fit: cover;
+    border-radius: 5px;   /* kesmeden ortalı şekilde*/
+  
+  /* box4 zaten vardı ama alt hizalı olsun diye üstüne margin verelim */
+  }
+  #box4 {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    font-size: 1.2rem;
+    color: white;
+    text-align: center;
+  }
+  .buttons:hover {
+    background-color: #bbbb00;
+    color: white;
+    
+  }
+  .left-box {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Buton sola yaslanır */
+}
+/* 2. Section */
+#second {
+    height: 400px;
+    background-color: #f5f5f5; /* Açık arka plan */
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .second-container {
+    margin-top: 0%;
+    max-width: 900px;
+  }
+  
+  .second-title {
+    color:hsl(110, 50%, 35%);
+    margin-right: 9%;
+    font-size: clamp(1.8rem, 4vw, 3rem);
+    margin-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .second-desc {
+    font-size: clamp(1rem, 2.5vw, 1.4rem);
+    color: #555;
+    line-height: 1.6;
+  }
+  #button3{
+    margin-left: 3%;
+  }
+
+  /* 3. section */
+
+  #third {
+    background-color: #f0f0f0;
+    padding: 80px 20px;
+    text-align: center;
+  }
+  
+  #third h2.section-title {
+    font-size: 3rem;
+    margin-bottom: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: hsl(110, 50%, 35%);
+  }
+  
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .card {
+    background-color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+    width: 320px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 20px;
+    border-radius: 14px;
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card i {
+    font-size: 44px;
+    color: #2d6a4f;
+    margin-bottom: 20px;
+    margin-top: 10px; /* ikon biraz aşağı gelsin diye */
+  }
+  
+  .card-title {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .card-description {
+    font-size: 1rem;
+    color: #444;
+    line-height: 1.5;
+  }
+  
+  /* 4. section */
+
+  #testimonials {
+    background-color: #f8f9f4;
+    padding: 80px 20px;
+    text-align: center;
+  }
+  
+  #testimonials .section-title {
+    font-size: 2.8rem;
+    margin-bottom: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #2d6a4f;
+  }
+  
+  .testimonial-carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 40px;
+    padding: 0 20px;
+    margin: 0 auto 50px auto;
+    justify-content: center; /* 💡 Kartları ortalamak için */
+  }
+  
+  
+  .testimonial-slide {
+    flex: 0 0 300px;
+    background-color: white;
+    padding: 30px 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    scroll-snap-align: center;
+  }
+  
+  .user-photo {
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .user-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .user-comment {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+  
+  .stars {
+    color: #ffd700;
+    font-size: 1.2rem;
+  }
+  
+  /* 5. section */
+
+  #faq {
+    padding: 80px 20px;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  
+  #faq .section-title {
+    font-size: 2.8rem;
+    margin-bottom: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #222;
+  }
+  
+  .faq-container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  .faq-item {
+    border-left: 4px solid hsl(110, 61%, 41%);
+    padding-left: 20px;
+  }
+  
+  .faq-question {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #2d6a4f;
+    margin-bottom: 10px;
+  }
+  
+  .faq-answer {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  /* 6. section */
+
+  #footer {
+    background: linear-gradient(to right, hsl(110, 63%, 37%), hsl(127, 57%, 35%));
+    color: white;
+    padding: 60px 20px 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 40px;
+  }
+  
+  .footer-left {
+    max-width: 300px;
+  }
+  
+  .footer-logo {
+    width: 120px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-description {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .footer-right h4,
+  .footer-column h4 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+  }
+  
+  .social-icons a {
+    color: white;
+    font-size: 1.4rem;
+    margin-right: 15px;
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #ffd60a;
+  }
+  
+  .footer-links {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-column ul li a {
+    text-decoration: none;
+    color: #eee;
+    font-size: 0.95rem;
+    transition: color 0.2s;
+  }
+  
+  .footer-column ul li a:hover {
+    color: #ffd60a;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding-top: 20px;
+    font-size: 0.9rem;
+    color: #ddd;
+  }
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+  
+  
